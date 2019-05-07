@@ -6,12 +6,32 @@
   display: block;
   clear: both;
 }
-.wrapper{
+.q1_wrapper{
   background-color:#eff3f4;
   width:940px;
-
+  margin:0 auto;
+  padding:20px;
+  box-sizing:border-box;
+}
+.box_model_wrapper{
+ float:left;
+ margin-left:20px;
+ padding:20px;
+ width:230px;
+ background-color:#3274ae;
+}
+.box_model_wrapper:first-child{
+  margin-left:0;
 }
 .box_model_text{
-  width:230px;
+  background-color:#eaf4ff;
+  width:210px;
+  border:10px  solid #022336;
+  display:inline-block;
+  font-size:16px;
+  line-height: 16px;  
+}
+.box_model_text p{
+  padding:20px;
 }
 /* 回答はここに書いてね */
