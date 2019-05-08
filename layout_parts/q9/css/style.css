@@ -5,12 +5,10 @@
 .q9__wrapper{
   margin:0 auto ;
   position: relative;
-  
   overflow:hidden;
   cursor: pointer;
   width:500px;
   height:333px;
-
 }
 .q9__wrapper__mask{
   transition: all .5s;

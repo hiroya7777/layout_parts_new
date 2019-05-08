@@ -7,7 +7,6 @@
 }
 .q7--float .q7__box {
   width: 225px;
-  height:100%;
   float:left;
   margin-left:50px;
   font-size:16px;
@@ -19,19 +18,23 @@
 .q7--table .q7__inner{
   display: table;
 }
-.q7--table .q7__box {
-  width:225px;
+.q7--table .q7__box{
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
+  width:225px;
 }
 .q7--table .q7__box:first-child {
   padding-left: 0;
 }
+.q7__box__text{
+  font-size:16px;
+}
 .q7--inlineblock .q7__inner {
   font-size: 0; 
-  /* inline-blockには要素そのものが「文字」の特徴を持っているため改行ができてしまうので、fontサイズ0で改行をなくす */
 }
+  /* inline-blockには要素そのものが「文字」の特徴を持っているため改行ができてしまうので、fontサイズ0で改行をなくす */
+
 .q7--inlineblock .q7__box {
   display: inline-block;
   margin-left: 50px;
