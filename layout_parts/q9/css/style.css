@@ -2,4 +2,83 @@
 
 /* 回答はここに書いてね */
 
+.q9__wrapper{
+  margin:0 auto ;
+  position: relative;
+  
+  overflow:hidden;
+  cursor: pointer;
+  width:500px;
+  height:333px;
+
+}
+.q9__wrapper__mask{
+  transition: all .5s;
+}
+ .q9__wrapper__content{
+  position: absolute;
+  width:100%;
+  height:100%;
+  bottom:-100%;
+  transition: all .5s;
+  background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,8));
+}
+.q9__wrapper:hover .q9__wrapper__mask{
+  transform:scale(1.5);
+}
+.q9__wrapper:hover .q9__wrapper__content{
+  bottom:0;
+}
+ .q9__wrapper__content__text{
+  position: absolute;
+  bottom:0;
+  left:0;
+  color:white;
+  width:100%;
+  padding:20px;
+  box-sizing: border-box;
+  word-break: break-all;
+  font-size:16px;
+  line-height: 16px;
+}
+.q9__roll{
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+  margin:0 auto;
+}
+.q9__roll{
+  margin:60px auto;
+  position: relative;
+  text-indent:-9999em;
+  border-top:10px solid #EEEEEE;
+  border-right:10px solid #EEEEEE;
+  border-bottom:10px solid #EEEEEE;
+  border-left:10px solid rgb(0, 183, 255);
+  -webkit-transform:translateZ(0);
+  -ms-transform:translateZ(0);
+  transform:translateZ(0);
+  -webkit-animation:load8  1.5s infinite linear;
+  animation:load8 1.2s infinite linear; 
+}
+@-webkit-keyframes load8{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform:rotate(260deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8{
+  0%{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100%{
+    -webkit-transform:rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 /* 回答はここに書いてね */
