@@ -6,9 +6,9 @@
   background-color:#ECF1F2;
   position: relative;
   margin:0 auto;
-  
 }
-.one,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+/* boxに変更 */
+.q5_container_box{
   width:100px;
   position: absolute; 
   font-size:30px;

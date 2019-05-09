@@ -30,32 +30,31 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
           <!-- 新たにタグは追加しなくてもできます。 -->
+
+          <!--修正点：クラス名をわかりやすく　もともとついているclassにスタイルを当てない　-->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-              <div class="input_wrapper">
-                <div class="input blue">common</div>
-                <div class="input pink">error</div>
-                <div class="input grey">disabled</div>
-                <div class="input white">shadow</div>
+                <div class="box_inner box_inner_small box_inner_common">common</div>
+                <div class="box_inner box_inner_small box_inner_error">error</div>
+                <div class="box_inner box_inner_small box_inner_disabled">disabled</div>
+                <div class="box_inner box_inner_small box_inner_shadow">shadow</div>
               </div>
-          </div>
+          
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-              <div class="select_wrapper">
-               <div class="select blue">common</div>
-               <div class="select pink">error</div>
-               <div class="select grey">disabled</div>
-               <div class="select white">shadow</div>
-              </div>
+            <div class="box_inner box_inner_middle box_inner_common">common</div>
+            <div class="box_inner box_inner_middle box_inner_error">error</div>
+            <div class="box_inner box_inner_middle box_inner_disabled">disabled</div>
+            <div class="box_inner box_inner_middle box_inner_shadow">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-              <div class="button_wrapper">
-              <div class="button blue">common</div>
-              <div class="button pink">error</div>
-              <div class="button grey">disabled</div>
-              <div class="button white">shadow</div>
+              <div class="large">
+                <div class="box_inner box_inner_large box_inner_common">common</div>
+                <div class="box_inner box_inner_large box_inner_error">error</div>
+                <div class="box_inner box_inner_large box_inner_disabled">disabled</div>
+                <div class="box_inner box_inner_large box_inner_shadow">shadow</div>
             </div>
           </div>
           <!-- 回答はここに書いてね -->
@@ -112,7 +111,7 @@
                 <div class="q8__main">
                   <ul class="q8__main__items">
                     <li class="clearfix">
-                      <p class="q8__main__items__title">名前<span class="is-required">*</span></p>  <!--フォーム横の警告表示 -->>
+                      <p class="q8__main__items__title">名前<span class="is-required">*</span></p>  <!--フォーム横の警告表示 -->
                       <div class="q8__main__items__content">
                       <input class="q8__input q8__input--init" type="text" name="name" id="name" required="">
                       </div>

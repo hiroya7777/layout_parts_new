@@ -12,48 +12,29 @@
 .container:first-child{
   margin-top:0;
 }
-.up-kotei1{
+.container .box{
+  padding:20px;
+  text-align: center;
+  display: table-cell;
+}
+.orange{
   background-color: #fdc8b8;
-  display:table-cell;
-  padding:20px;
-  width:100px;
-  text-align: center;
-  
+  width:100px; 
 }
-.up-kahen{
-  display:table-cell;
+.pink{
   background-color: #e0abd9;
-  padding:20px;
-  text-align: center;
- 
 }
-.up-kotei2{
+.blue{
   background-color: #b6d8ed;
-  display:table-cell;
-  padding:20px;
   width:100px;
-  text-align: center;
-  
 }
-
-.down-kahen2{
+.yellow{
   background-color: #e5d32e;
-  display:table-cell;
-  padding:20px;
-  text-align: center;
 }
-.down-kahen3{
-  display:table-cell;
+.red{
   background-color: #ec8f9a;
-  padding:20px;
-  text-align: center;
-  
 }
-.down-kotei3{
+.green{
   background-color: #8fdcad;
-  display:table-cell;
-  padding:20px;
   width:500px;
-  text-align: center;
-  
 }
