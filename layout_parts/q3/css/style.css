@@ -4,7 +4,7 @@
   height:100%;
   table-layout: fixed;
 }
-.table th,td{
+.table th,.table td{
   border:solid #dedede 1px;
   padding:10px;
 }
